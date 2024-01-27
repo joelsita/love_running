@@ -37,8 +37,15 @@ h1{
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #252525;
-
+  letter-spacing: 2px;
 }
+
+#menu {
+  font-size: 110%;
+  letter-spacing: 4px;
+  list-style-type: none;
+}
+
 /* Main */
 main{
   background-color: lightblue;
