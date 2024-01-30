@@ -178,6 +178,8 @@ main {
   /* this will npt wrap on screen of less than 400 px wide. Each div will expend to fill the available space on its row */
   flex-basis: 200px;
   flex-grow: 1;
+  /* creates a grid of meetup time dives over the background image */
+  border: 2PX solid white;
 }
 
 #times h3 {
