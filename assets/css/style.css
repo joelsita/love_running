@@ -160,6 +160,30 @@ main {
   justify-content: center;
 }
 
+
+/* meetup section */
+#times{
+  background: url("../images/dublin-city.webp") no-repeat  center / cover;
+  /* handle responsivity without the need for a media query */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#times div {
+  color: #fafafa;
+  background-color: rgba(0, 0, 0, .6);
+  padding: 15px;
+  text-align: center;
+
+  /* this will npt wrap on screen of less than 400 px wide. Each div will expend to fill the available space on its row */
+  flex-basis: 200px;
+  flex-grow: 1;
+}
+
+#times h3 {
+  color: #fafafa;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
